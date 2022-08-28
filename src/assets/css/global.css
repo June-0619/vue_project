@@ -24,3 +24,9 @@ html,body,#app{
 .el-pagination{
 	margin-top:15px;
 }
+
+/* 避免级联选择器下拉菜单过长 */
+.el-cascader-menu{
+	height:300px;
+}
+
