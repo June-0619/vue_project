@@ -7,6 +7,7 @@ import Users from '../components/user/Users.vue'
 import Rights from '../components/power/Rights.vue'
 import Roles from '../components/power/Roles.vue'
 import Cate from '../components/goods/Cate.vue'
+import Params from '../components/goods/Params.vue'
 
 Vue.use(VueRouter)
 
@@ -20,7 +21,8 @@ const routes = [
     {path:'/users',component: Users},/* 这个是菜单项默认对应的路径，不能自己命名 */
     {path:'/rights',component: Rights},
     {path:'/roles',component:Roles},
-    {path:'/categories',component:Cate},    
+    {path:'/categories',component:Cate},
+    {path:'/params',component:Params},
   ]
   }
 ]
