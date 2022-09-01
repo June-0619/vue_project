@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import { Button,Form,FormItem,Input,Message,Container,Header,Aside,Main,
 Menu,Submenu,MenuItem,Breadcrumb,BreadcrumbItem,Card,Row,Col,Table,TableColumn,Switch,Tooltip,Pagination,Dialog,
-MessageBox,Tag,Tree,Select,Option,Cascader,Alert,Tabs,TabPane,Steps,Step,CheckboxGroup,Checkbox,Upload
+MessageBox,Tag,Tree,Select,Option,Cascader,Alert,Tabs,TabPane,Steps,Step,CheckboxGroup,Checkbox,Upload,Timeline,TimelineItem
 } from 'element-ui'
 
 Vue.use(Button)
@@ -39,7 +39,8 @@ Vue.use(Step)
 Vue.use(CheckboxGroup)
 Vue.use(Checkbox)
 Vue.use(Upload)
-
+Vue.use(Timeline)
+Vue.use(TimelineItem)
 
 Vue.prototype.$message=Message//把组件挂在在vue的原型对象上
 Vue.prototype.$confirm=MessageBox.confirm
